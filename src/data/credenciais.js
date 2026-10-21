@@ -1,6 +1,6 @@
 const credenciais = {
-  usuario: 'fatecano',
-  senha: '1234',
+  usuario: 'matheusbertelli',
+  senha: '6767',
 };
 
 export function validarLogin(usuario, senha) {

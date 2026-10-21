@@ -143,10 +143,10 @@ export default function Login({ onEntrar }) {
             <View style={styles.credenciais}>
               <Texto style={styles.credenciaisTitulo}>ACESSO PARA TESTE</Texto>
               <Texto style={styles.credenciaisTexto}>
-                Usuário: <Texto style={styles.credenciaisDestaque}>fatecano</Texto>
+                Usuário: <Texto style={styles.credenciaisDestaque}>matheusbertelli</Texto>
               </Texto>
               <Texto style={styles.credenciaisTexto}>
-                Senha: <Texto style={styles.credenciaisDestaque}>1234</Texto>
+                Senha: <Texto style={styles.credenciaisDestaque}>6767</Texto>
               </Texto>
             </View>
             <Texto style={styles.rodape}>

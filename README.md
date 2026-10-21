@@ -61,9 +61,26 @@ petacolhe/
 
 ## Capturas de tela
 
-A atividade solicita capturas da aplicação em funcionamento: Login, Home, Sobre e Contato. Após executar o projeto, salve as imagens em `docs/capturas/` com estes nomes:
+### Login
+<p align="center">
+  <img src="docs/capturas/login.png" alt="login" width="300">
+</p>
 
-- `login.png`
-- `home.png`
-- `sobre.png`
-- `contato.png`
+### Home
+<p align="center">
+  <img src="docs/capturas/inicio1.png" alt="Tela Home" width="300">
+</p>
+<p align="center">
+  <img src="docs/capturas/inicio2.png" alt="Tela Home" width="300">
+</p>
+
+
+### Sobre
+<p align="center">
+  <img src="docs/capturas/sobre.png" alt="SOBRE" width="300">
+</p>
+
+### Contato
+<p align="center">
+  <img src="docs/capturas/contato.png" alt="Tela Home" width="300">
+</p>
