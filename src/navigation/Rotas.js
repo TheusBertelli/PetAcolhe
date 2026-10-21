@@ -1,24 +1,28 @@
 import { useEffect, useState } from 'react';
 import { BackHandler, SafeAreaView, StatusBar, View } from 'react-native';
 import Toolbar from '../components/Toolbar';
+import Contato from '../pages/Contato';
+import Home from '../pages/Home';
+import Login from '../pages/Login';
+import Sobre from '../pages/Sobre';
 import cores from '../styles/cores';
 import global from '../styles/global';
-import Login from '../pages/Login';
-import Home from '../pages/Home';
-import Sobre from '../pages/Sobre';
-import Contato from '../pages/Contato';
 
 export default function Rotas() {
   const [pagina, setPagina] = useState('login');
 
   useEffect(() => {
-    const subscription = BackHandler.addEventListener('hardwareBackPress', () => {
-      if (pagina === 'sobre' || pagina === 'contato') {
-        setPagina('home');
-        return true;
-      }
-      return false;
-    });
+    const subscription = BackHandler.addEventListener(
+      'hardwareBackPress',
+      () => {
+        if (pagina === 'sobre' || pagina === 'contato') {
+          setPagina('home');
+          return true;
+        }
+
+        return false;
+      },
+    );
 
     return () => subscription.remove();
   }, [pagina]);
